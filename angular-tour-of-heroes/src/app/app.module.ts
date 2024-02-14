@@ -11,7 +11,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDataService} from './in-memory-data.service';
-import { HeroSearchComponent } from './hero-search/hero-search.component'
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { CreateHeroComponent } from './create-hero/create-hero.component'
 
 @NgModule({
   imports: [
@@ -34,7 +35,9 @@ import { HeroSearchComponent } from './hero-search/hero-search.component'
     HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent,
-    // HeroSearchComponent
+    HeroSearchComponent,
+    CreateHeroComponent,
+
   ],
   bootstrap: [ AppComponent ]
 })
